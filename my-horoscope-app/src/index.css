@@ -1,0 +1,106 @@
+
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.photowall.com/products/55471/blush-clouds-daydream.jpg?h=699&q=85') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  input:focus {
+    border-color: #0077b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.5);
+  }
+  
+  button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #005f8a;
+    transform: scale(1.05);
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #caf0f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .weather-info h3 {
+    color: #03045e;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: #d00000;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .loading {
+    color: #0077b6;
+    font-style: italic;
+  }
+  
